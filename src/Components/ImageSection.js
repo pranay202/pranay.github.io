@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../img/resumeImg.png';
+import resume from '../img/resume.jpg';
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
@@ -54,10 +54,15 @@ const ImageSectionStyled = styled.div`
         }
     }
     .left-content{
+        margin-top: 1.5rem;
         width: 100%;
         img{
             width: 75%;
             object-fit: cover;
+            padding: 10;
+            border: 1px solid var(--border-color);
+            border-radius:5%;
+
         }
     }
     .right-content{
