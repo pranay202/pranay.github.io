@@ -31,7 +31,7 @@ function Resume() {
                         text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
                     />
                     <ResumeItem 
-                        year={'July 2021 - Oct 2021'} 
+                        year={'July - Oct 2021'} 
                         title={'Full Stack Developer'}
                         subTitle={'ShapeAI'}
                         text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
@@ -54,7 +54,7 @@ function Resume() {
                         text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
                     />
                     <ResumeItem
-                        year={'2021 - pre'}
+                        year={'2017'}
                         title={'Primary School Education'}
                         subTitle={'Gajanan Vidyalaya'}
                         text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
