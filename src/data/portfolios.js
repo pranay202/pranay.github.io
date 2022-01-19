@@ -12,7 +12,7 @@ const portfolios = [
         category: 'MERN',
         image: img1,
         link1: 'https://www.github.com/pranay202/Fullstack-Zomato-Clone',
-        link2: 'https://github.io/pranay202/Fullstack-Zomato-Clone',
+        link2: 'https://pranay202.github.io/pranay202/Fullstack-Zomato-Clone',
         title: 'Zomato Clone',
         text: 'MERN, TailwindCSS, Auth'
     },
@@ -21,7 +21,7 @@ const portfolios = [
         category: 'Games',
         image: img2,
         link1: 'https://github.com/pranay202/alienInvasion',
-        link2: 'https://github.io/pranay202/alienInvasion',
+        link2: 'https://pranay202.github.io/pranay202/alienInvasion',
         title: 'Alien Invasion',
         text: 'Python, Pygame'
     },
