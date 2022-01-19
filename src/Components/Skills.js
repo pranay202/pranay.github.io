@@ -27,6 +27,16 @@ function Skills() {
                             text={'60%'}
                         />
                         <ProgressBar 
+                            title={'TailwindCSS'}
+                            width={'75%'}
+                            text={'75%'}
+                        />
+                        <ProgressBar 
+                            title={'Bootstrap'}
+                            width={'75%'}
+                            text={'75%'}
+                        />
+                        <ProgressBar 
                             title={'JAVASCRIPT'}
                             width={'85%'}
                             text={'85%'}
@@ -35,11 +45,6 @@ function Skills() {
                             title={'JAVA'}
                             width={'20%'}
                             text={'20%'}
-                        />
-                        <ProgressBar 
-                            title={'C++'}
-                            width={'35%'}
-                            text={'35%'}
                         />
                         <ProgressBar 
                             title={'PYTHON'}
