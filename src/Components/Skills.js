@@ -38,8 +38,8 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'JAVASCRIPT'}
-                            width={'85%'}
-                            text={'85%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                         <ProgressBar 
                             title={'JAVA'}
