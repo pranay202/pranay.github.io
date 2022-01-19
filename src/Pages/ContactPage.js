@@ -50,7 +50,7 @@ function ContactPage() {
                 <div className="right-content">
                     <ContactItem title={'Phone'} icon={phone} cont1={'+91-789675637'} cont2={'07663520283'} />
                     <ContactItem title={'Email'} icon={email} cont1={'loremipsum@gmail.com'} cont2={'info.lorem.ipsum@gmail.com'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'420, Ganjakhet Chowk, Sunsan Nagar, Bajirao Galli, Nagpur'} cont2={'India'} />
+                    <ContactItem title={'Address'} icon={location} cont1={'420, Lorem Ipsum Square, Area no. - 32, lane no. - 06, Nagpur.'} cont2={'India'} />
                     
                 </div>
             </InnerLayout>
