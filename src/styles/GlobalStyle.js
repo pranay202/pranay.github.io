@@ -27,6 +27,15 @@ const GlobalStyle = createGlobalStyle`
     --primary-color-light: #057FFF;
     --secondary-color: #ff7675;
     --background-dark-color: #F1F1F1;
+    --background-dark-image:#1f93ff;
+    --background-dark-image:  
+radial-gradient(at 0% 4%, hsla(28,100%,74%,1) 0, transparent 50%),  
+radial-gradient(at 81% 0%, hsla(189,100%,56%,1) 0, transparent 50%),  
+radial-gradient(at 0% 33%, hsla(355,85%,93%,1) 0, transparent 50%),  
+radial-gradient(at 0% 55%, hsla(340,100%,76%,1) 0, transparent 50%),  
+radial-gradient(at 43% 1%, hsla(22,100%,77%,1) 0, transparent 50%),  
+radial-gradient(at 100% 37%, hsla(242,100%,70%,1) 0, transparent 50%),  
+radial-gradient(at 0% 90%, hsla(343,100%,76%,1) 0, transparent 50%);
     --background-dark-grey: #e4e4e4;
     --border-color: #cbced8;
     --background-light-color: #F1F1F1;
