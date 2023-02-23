@@ -1,5 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 /* :root{
@@ -129,13 +128,13 @@ h6{
     padding-bottom: .6rem;
 }
 
-//Utilities
+
 .u-margin-bottom{
     margin-bottom: 4rem;
 }
 
 
-//Floting Toggler
+
 .light-dark-mode{
     position: fixed;
     right: 0;
@@ -155,7 +154,6 @@ h6{
     }
   }
 
-  //Nav Toggler
   .ham-burger-menu{
       position: absolute;
       right: 5%;
@@ -176,11 +174,6 @@ h6{
         display: block;
     }
   }
-
-
-//Global Media Queries
-
-
 
 `;
 
