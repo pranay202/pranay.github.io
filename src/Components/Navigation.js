@@ -1,51 +1,51 @@
-import React from "react";
-import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 // import avatar from '../img/Resume-web.png';
-import avatar from "../img/avatar2.png";
+import avatar from '../img/avatar2.png';
 
 function Navigation() {
   var currentYear = new Date().getFullYear();
   return (
     <NavigationStyled>
-      <div className="avatar">
-        <img src={avatar} alt="avatar" />
+      <div className='avatar'>
+        <img src={avatar} alt='avatar' />
       </div>
-      <ul className="nav-items">
-        <li className="nav-item">
-          <NavLink to="/" activeClassName="active-class" exact>
+      <ul className='nav-items'>
+        <li className='nav-item'>
+          <NavLink to='/' activeClassName='active-class'>
             Home
           </NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink to="/about" activeClassName="active-class" exact>
+        <li className='nav-item'>
+          <NavLink to='/about' activeClassName='active-class'>
             About
           </NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class" exact>
+        <li className='nav-item'>
+          <NavLink to='/resume' activeClassName='active-class'>
             Resume
           </NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink to="/portfolios" activeClassName="active-class" exact>
+        <li className='nav-item'>
+          <NavLink to='/portfolios' activeClassName='active-class'>
             Projects
           </NavLink>
           {/* portfoliosPage */}
         </li>
-        <li className="nav-item">
-          <NavLink to="/projects" activeClassName="active-class" exact>
+        <li className='nav-item'>
+          <NavLink to='/services' activeClassName='active-class'>
             Services
           </NavLink>
           {/* ProjectsPage */}
         </li>
-        <li className="nav-item">
-          <NavLink to="/contact" activeClassName="active-class" exact>
+        <li className='nav-item'>
+          <NavLink to='/contact' activeClassName='active-class'>
             Contact
           </NavLink>
         </li>
       </ul>
-      <footer className="footer">
+      <footer className='footer'>
         <p>
           @{currentYear} <b>Pranay Kharabe</b>
         </p>
@@ -97,7 +97,7 @@ const NavigationStyled = styled.nav`
           color: var(--white-color);
         }
         &::before {
-          content: "";
+          content: '';
           position: absolute;
           bottom: 0;
           left: 0;
