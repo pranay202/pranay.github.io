@@ -13,22 +13,22 @@ function Navigation() {
       </div>
       <ul className='nav-items'>
         <li className='nav-item'>
-          <NavLink to='/' activeClassName='active-class'>
+          <NavLink to='/' activeClassName='active-class' exact>
             Home
           </NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink to='/about' activeClassName='active-class'>
+          <NavLink to='/about' activeClassName='active-class' exact>
             About
           </NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink to='/resume' activeClassName='active-class'>
+          <NavLink to='/resume' activeClassName='active-class' exact>
             Resume
           </NavLink>
         </li>
         <li className='nav-item'>
-          <NavLink to='/portfolios' activeClassName='active-class'>
+          <NavLink to='/portfolios' activeClassName='active-class' exact>
             Projects
           </NavLink>
           {/* portfoliosPage */}
@@ -40,7 +40,7 @@ function Navigation() {
           {/* ProjectsPage */}
         </li>
         <li className='nav-item'>
-          <NavLink to='/contact' activeClassName='active-class'>
+          <NavLink to='/contact' activeClassName='active-class' exact>
             Contact
           </NavLink>
         </li>
