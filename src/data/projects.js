@@ -2,6 +2,7 @@ import s1 from '../img/blogs/s-1.jpg';
 import s3 from '../img/blogs/s-3.jpg';
 import s2 from '../img/blogs/s-2.jpg';
 import s4 from '../img/blogs/s-4.jpg';
+import s5 from '../img/blogs/s-5.jpg';
 
 const projects = [
   {
@@ -41,7 +42,7 @@ const projects = [
     title: 'Build your full stack MERN website',
     date: '2021',
     month: 'May',
-    image: s4,
+    image: s5,
     link: 'https://www.fiverr.com/pranaykharabe/code-your-college-projects',
   },
 ];
