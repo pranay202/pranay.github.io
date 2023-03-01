@@ -2,7 +2,7 @@ import s1 from '../img/blogs/s-1.jpg';
 import s3 from '../img/blogs/s-3.jpg';
 import s2 from '../img/blogs/s-2.jpg';
 import s4 from '../img/blogs/s-4.jpg';
-import s5 from '../img/blogs/s-5.jpg';
+import s5 from '../img/blogs/s-5.png';
 
 const projects = [
   {
