@@ -15,7 +15,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Create Professional Landing Page Design and Build',
+    title: 'Create and Build Professional Landing Page Design',
     date: '01',
     month: 'April',
     image: s2,
