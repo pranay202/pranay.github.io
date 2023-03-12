@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import TIcon from '@material-ui/icons/Twitter';
 import GithubIcon from '@material-ui/icons/GitHub';
 import LinkedinIcon from '@material-ui/icons/LinkedIn';
 import Particle from '../Components/Particle';
@@ -35,7 +36,7 @@ const HomePage = () => {
             className='icon i-twitter'
             rel='noreferrer'
           >
-            <FacebookIcon />
+            <TIcon />
           </a>
           <a
             href='https://github.com/pranay202'
